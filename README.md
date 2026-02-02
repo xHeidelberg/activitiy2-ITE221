@@ -7,5 +7,3 @@ Name 3 <br>
 
 BSIT 2-F2
 
-
-<code> Sample </code>
