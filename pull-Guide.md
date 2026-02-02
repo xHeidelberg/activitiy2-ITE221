@@ -52,7 +52,7 @@ remote: Resolving deltas: 100% (0/0), completed with 0 local objects.
 To https://github.com/xHeidelberg/activitiy2-ITE221.git
  * [new branch]      feature-branch -> feature-branch
 Branch 'feature-branch' set up to track remote branch 'feature-branch' from 'origin'.
-
+<
 $ gh pr create --base main --head feature-branch --title "New feature" --body "Adding a new feature"
 Creating pull request for feature-branch into main in username/repository
 https://github.com/xHeidelberg/activitiy2-ITE221.git
