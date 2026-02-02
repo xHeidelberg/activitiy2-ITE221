@@ -31,13 +31,31 @@ Now that your branch is on GitHub, you can use the GitHub CLI to create a pull r
 Once your pull request is created, you may need to monitor its status or make additional modifications based on feedback from reviewers. Use the following commands to manage your pull request:
 <ul>
 
-<li>List pull requests: gh pr list — shows a list of pull requests in the repository.</li>
+<li>List pull requests: <code>gh pr list</code> — shows a list of pull requests in the repository.</li>
 
-<li>Check out pull requests locally: gh pr checkout PR_NUMBER — allows you to checkout a particular pull request locally.</li>
+<li>Check out pull requests locally:<code> gh pr checkout PR_NUMBER </code>— allows you to checkout a particular pull request locally.</li>
 
-<li>View pull request in the browser: gh pr view --web — opens the pull request in your web browser.</li>
+<li>View pull request in the browser:<code> gh pr view --web </code>— opens the pull request in your web browser.</li>
 <ul>
 <br>
 As an example here’s what you might see in your terminal when pushing a branch and creating a pull request:
 
+<code>
+$ git push --set-upstream origin feature-branch
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: Resolving deltas: 100% (0/0), completed with 0 local objects.
+To https://github.com/username/repository.git
+ * [new branch]      feature-branch -> feature-branch
+Branch 'feature-branch' set up to track remote branch 'feature-branch' from 'origin'.
 
+$ gh pr create --base main --head feature-branch --title "New feature" --body "Adding a new feature"
+Creating pull request for feature-branch into main in username/repository
+https://github.com/username/repository/pull/1
+
+
+</code>
