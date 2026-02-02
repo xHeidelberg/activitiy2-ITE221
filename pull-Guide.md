@@ -31,11 +31,11 @@ Now that your branch is on GitHub, you can use the GitHub CLI to create a pull r
 Once your pull request is created, you may need to monitor its status or make additional modifications based on feedback from reviewers. Use the following commands to manage your pull request:
 <ul>
 
-<ol>List pull requests: gh pr list — shows a list of pull requests in the repository.</ol>
+<li>List pull requests: gh pr list — shows a list of pull requests in the repository.</li>
 
-<ol>Check out pull requests locally: gh pr checkout PR_NUMBER — allows you to checkout a particular pull request locally.</ol>
+<li>Check out pull requests locally: gh pr checkout PR_NUMBER — allows you to checkout a particular pull request locally.</li>
 
-<ol>View pull request in the browser: gh pr view --web — opens the pull request in your web browser.</ol>
+<li>View pull request in the browser: gh pr view --web — opens the pull request in your web browser.</li>
 <ul>
 <br>
 As an example here’s what you might see in your terminal when pushing a branch and creating a pull request:
