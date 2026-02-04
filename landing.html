@@ -3,61 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Small Biz Pro | Professional Services</title>
+    <title>ITE221 | High School  Guide</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <header>
-        <nav class="container">
-            <div class="logo">SmallBiz<span>Pro</span></div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <div class="brand">ITE<span>221</span></div>
+        <ul class="nav-links">
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#college">College</a></li>
+            <li><a href="#life">Life</a></li>
+            <li><a href="#" class="btn-primary">Join Now</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <div class="banner-content">
+            <span class="badge">Class of 2026</span>
+            <h1>Everything they don't teach you in class.</h1>
+            <p>From acing the SATs to managing your first bank account—we've got you covered.</p>
+            <div class="banner-btns">
+                <a href="#latest" class="btn-solid">Read Latest</a>
+                <a href="#" class="btn-outline">Watch Tutorials</a>
+            </div>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Expert Solutions for Your Business</h1>
-            <p>Helping local entrepreneurs grow with data-driven strategies and personalized support.</p>
-            <a href="#contact" class="btn">Get a Free Consultation</a>
-        </div>
-    </section>
+    <section class="container" id="latest">
+        <div class="main-layout">
+            
+            <div class="feed">
+                <h2 class="section-title">Trending Now</h2>
+                
+                <article class="post">
+                    <div class="post-img" style="background-image: url('#');"></div>
+                    <div class="post-info">
+                        <span class="tag scholarship">Scholarships</span>
+                        <h3>5 Local Scholarships closing in March</h3>
+                        <p>Most students ignore local funding. Here’s how to win the ₱500 - ₱2,000 grants...</p>
+                        <a href="#" class="read-more">Read Entry →</a>
+                    </div>
+                </article>
 
-    <section id="services" class="services container">
-        <h2 class="section-title">Our Services</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Consulting</h3>
-                <p>Strategic planning to help you navigate market changes and scale effectively.</p>
+                <article class="post">
+                    <div class="post-img" style="background-image: url('#');"></div>
+                    <div class="post-info">
+                        <span class="tag productivity">Study Skills</span>
+                        <h3>Stop Highlighting, Start Blurring</h3>
+                        <p>Scientific research shows highlighting is useless. Try the "Blurting Method" instead...</p>
+                        <a href="#" class="read-more">Read Entry →</a>
+                    </div>
+                </article>
             </div>
-            <div class="card">
-                <h3>Marketing</h3>
-                <p>Digital outreach programs designed to find your customers where they live online.</p>
-            </div>
-            <div class="card">
-                <h3>Accounting</h3>
-                <p>Keep your books clean and your taxes optimized with our financial experts.</p>
-            </div>
-        </div>
-    </section>
 
-    <section id="contact" class="contact container">
-        <h2 class="section-title">Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="How can we help?"></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+            <aside class="sidebar">
+                <div class="widget">
+                    <h4>Upcoming Deadlines</h4>
+                    <ul class="deadline-list">
+                        <li><strong>Feb 15:</strong> AP Exam Registration</li>
+                        <li><strong>Mar 01:</strong> FAFSA Priority Deadline</li>
+                        <li><strong>May 01:</strong> College Decision Day</li>
+                    </ul>
+                </div>
+                <div class="widget dark">
+                    <h4>Student Tool of the Week</h4>
+                    <p><strong>Notion for Students</strong>: Organize your entire life for $0.</p>
+                    <a href="#" class="btn-small">Get Template</a>
+                </div>
+            </aside>
+
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 SmallBizPro. All rights reserved.</p>
+        <div class="footer-content">
+            <h3>Stay in the loop.</h3>
+            <p>Get a weekly digest of opportunities directly to your inbox.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Your school email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="footer-bottom">
+                &copy; ITE221 Requirements. No boring lectures, just facts.
+            </div>
+        </div>
     </footer>
 
 </body>
