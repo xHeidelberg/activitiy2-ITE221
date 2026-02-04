@@ -41,6 +41,7 @@ Once your pull request is created, you may need to monitor its status or make ad
 As an example here’s what you might see in your terminal when pushing a branch and creating a pull request:
 
 <code>
+
 $ git push --set-upstream origin feature-branch
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
