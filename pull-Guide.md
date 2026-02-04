@@ -12,7 +12,7 @@ Creating a branch in Git allows you to work on new features or fixes without aff
 ### Step 3: Make changes and commit them
 After creating your branch, make your code changes. Once you're done, use the <code>git add .</code> command to stage your changes and <code>git commit</code> to commit them: <br>
 
-<code>git add .<br></code>
+<code>git add . </code> <br>
 <code>git commit -m "Add a detailed commit message describing your changes" </code> <br>
 
 ### Step 4: Push your branch to GitHub
